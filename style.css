@@ -1,0 +1,24 @@
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  background-color: rgb(132, 132, 196);
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  color: rgb(23, 24, 24);
+  width: 100px;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: rgb(102, 102, 154);
+
+  transform: translateY(0.8rem);
+  scale: 1.1;
+}
